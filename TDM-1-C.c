@@ -103,13 +103,19 @@ int main() {
         }
     }
 
-    // Exercice 9 : produit terme à terme
-    int P[M][N];
+    // Exercice 9 : produit matriciel
+    int P[M][M];
+
     for (int i = 0; i < M; i++) {
-        for (int j = 0; j < N; j++) {
-            P[i][j] = M1[i][j] * M2[i][j];
+        for (int j = 0; j < M; j++) {
+            P[i][j] = 0;
+
+            for (int k = 0; k < N; k++) {
+                P[i][j] += M1[i][k] * M2[k][j];
+            }
         }
-    }
+     }
+
 
     // Exercice 10 : plus grand element matrice
     int M10, N10;
