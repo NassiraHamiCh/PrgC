@@ -8,10 +8,10 @@ int carre(int n) {
 // Exercice 2 : maxi de deux nombres
 int max2(int a, int b) {
     //return (a > b) ? a : b;
-    if a>b
-         return  a
+    if ( a > b )
+         return  a ;
     else 
-     return b
+     return b;
 }
 
 // Exercice 3 : pair/impair
