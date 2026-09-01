@@ -127,7 +127,7 @@ int main() {
 
     // --- Exercice 3 : pointeur non initialisé (attention : erreur possible) ---
     int *ptr;
-    // printf("Ex2 : Valeur via pp = %d, Adresse de p = %p\n", *ptr); // Ne pas exécuter, undefined behavior
+    // printf("Ex3 : Valeur via pp = %d, Adresse de p = %p\n", *ptr, (void*)ptr); // Ne pas exécuter, undefined behavior
 
     // --- Exercice 2 : double pointeur ---
     int n2 = 20;
